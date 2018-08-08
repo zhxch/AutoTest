@@ -1,0 +1,26 @@
+[
+  {
+    "description":"测试一个不带参数的get请求",
+    "request":{
+      "uri":"/testGet",
+      "method":"get"
+    },
+    "response":{
+      "text":"这是一个没有参数的get请求"
+    }
+  },
+  {
+    "description":"测试一个带参数的get请求",
+    "request":{
+      "uri":"/testGetWithParam",
+      "method":"get",
+      "queries":{
+        "name":"zhangxiaochen",
+        "age":"28"
+      }
+    },
+    "response":{
+      "text":"张晓晨到此一游～"
+    }
+  }
+]
